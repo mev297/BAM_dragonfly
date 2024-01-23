@@ -1,0 +1,12 @@
+
+import subprocess 
+import os 
+
+
+program = "location of IPSDK file"
+
+subprocess.run(program)
+# os.system(program) if the first one doesn't work 
+# also tried putting an exception to see if works but was having issues with the license file. 
+
+
